@@ -1,0 +1,35 @@
+MULTILINGUAL CHATBOT TEST CASES
+
+Test 1:
+Input: I need help with my order
+Expected Language: English
+Expected Intent: Order/Help
+Expected Result: English response about the order.
+
+Test 2:
+Input: Namaste, mujhe apne order ki information chahiye
+Expected Language: Hindi
+Expected Intent: Order
+Expected Result: Hindi response about the order.
+
+Test 3:
+Input: Namaskara, nanage help beku
+Expected Language: Kannada
+Expected Intent: Help
+Expected Result: Kannada response.
+
+Test 4:
+Input: Hola, necesito ayuda con mi pedido
+Expected Language: Spanish
+Expected Intent: Order/Help
+Expected Result: Spanish response about the order.
+
+Test 5:
+Input: What did I ask previously?
+Expected Result: Previous conversation should be retained.
+
+Test 6:
+Input: I need help
+Expected Language: English
+Expected Intent: Help
+Expected Result: English help response.
